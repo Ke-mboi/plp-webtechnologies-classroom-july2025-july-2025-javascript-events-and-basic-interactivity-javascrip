@@ -1,0 +1,48 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background: #f4f4f4;
+  color: #333;
+}
+
+header, footer {
+  background: #007BFF;
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+section {
+  margin: 20px 0;
+  padding: 15px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+button {
+  padding: 8px 12px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.message {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+/* Dark mode toggle */
+.dark-mode {
+  background: #222;
+  color: #eee;
+}
+.dark-mode section {
+  background: #333;
+  color: #eee;
+}
